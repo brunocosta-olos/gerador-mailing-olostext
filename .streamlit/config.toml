@@ -1,0 +1,35 @@
+[theme]
+base = "light"
+primaryColor = "#FB5C28"
+backgroundColor = "#F3F6F9"
+secondaryBackgroundColor = "#EEF2F6"
+textColor = "#111827"
+font = "Plus Jakarta Sans"
+headingFont = "Plus Jakarta Sans"
+codeFont = "JetBrains Mono"
+baseRadius = "12px"
+borderColor = "#D8DEE8"
+
+[[theme.fontFaces]]
+family = "Plus Jakarta Sans"
+url = "app/static/PlusJakartaSans.ttf"
+weight = "200 800"
+
+[[theme.fontFaces]]
+family = "JetBrains Mono"
+url = "app/static/JetBrainsMono.ttf"
+weight = "100 800"
+
+[theme.sidebar]
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F8FAFC"
+
+[client]
+toolbarMode = "minimal"
+
+[server]
+maxUploadSize = 500
+enableStaticServing = true
+
+[browser]
+gatherUsageStats = false

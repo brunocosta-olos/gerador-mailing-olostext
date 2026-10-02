@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Pytest
+.pytest_cache/
+
+# Variáveis e segredos
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
